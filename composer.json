@@ -20,7 +20,7 @@
     "require-dev": {
         "symfony/yaml": ">=2.0.0,<2.2.0-dev"
     },
-    "suggests":{
+    "suggest":{
         "symfony/yaml":">=2.0.0,<2.2.0-dev",
         "jackalope/jackalope-doctrine-dbal":"dev-master",
         "jackalope/jackalope-jackrabbit":"1.0.*",
@@ -29,6 +29,7 @@
     "autoload": {
         "psr-0": { "Doctrine\\ODM\\PHPCR": "lib/" }
     },
+    "bin": ["bin/phpcr"],
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
